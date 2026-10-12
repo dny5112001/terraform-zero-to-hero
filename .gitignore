@@ -1,0 +1,12 @@
+.terraform/
+*.tfstate
+*.tfstate.*
+*.tfplan
+crash.log
+.DS_Store
+
+# files the examples generate
+examples/**/out/
+examples/**/*.txt
+!examples/09-data-sources/input.txt
+examples/**/app.conf
